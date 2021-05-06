@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid gray;
+            /* border-collapse: collapse; */
+            padding: 10px;
+            border-spacing: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table style="width: 100%; text-align: center;">
+        <caption>Information Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Test - 1</td>
+                <td>Test - 2</td>
+                <td>Test - 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Test - 1</td>
+                <td>Test - 2</td>
+                <td>Test - 3</td>
+            </tr>
+            <tr>
+                <td>Test - 2</td>
+                <td>Test - 3</td>
+            </tr>
+            <tr>
+                <td>Test - 1</td>
+                <td colspan="2">Test - 2</td>
+            </tr>
+            <tr>
+                <td>Test - 1</td>
+                <td>Test - 2</td>
+                <td>Test - 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

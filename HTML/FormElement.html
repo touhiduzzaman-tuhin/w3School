@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+</head>
+
+<body>
+    <p>Input & Label Element & Field Set & Legend</p>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                Information Area
+            </legend>
+            <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName"> <br>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName">
+        </fieldset>
+    </form>
+    <p>Select & Option Element</p>
+    <label for="cars">Chose A Car</label> <br>
+    <select name="cars" id="cars" size="1">
+        <option value="Volvo">Volvo</option>
+        <option value="BMW">BMW</option>
+        <option value="Honda">Honda</option>
+        <option value="Audi" selected>Audi</option>
+        <option value="Hero">Hero</option>
+    </select>
+    <p>Text-Area Element</p>
+    <textarea name="message" id="comments" cols="30" rows="10">
+        Lorem ipsum dolor sit amet.
+    </textarea>
+    <p>Button Element</p>
+    <button onclick="alert('Hello Mr.')">Click Me!</button>
+    <p>Datalist Element</p>
+    <form action="">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer"></option>
+            <option value="Firefox"></option>
+            <option value="Chorme"></option>
+            <option value="Explorer"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist>
+    </form>
+</body>
+
+</html>

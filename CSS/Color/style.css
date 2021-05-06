@@ -1,0 +1,9 @@
+p{
+    color: aqua;
+}
+h1{
+    color : rgb(255, 0, 0);
+}
+h3{
+    color : hsl(0, 100%, 40%)
+}
